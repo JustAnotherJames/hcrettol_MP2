@@ -18,9 +18,10 @@ and reasons for restarted contributions (if any)
 
 - You'll find the list of 10 projects in [net2prj.csv](https://github.com/fdac25/MP2/blob/main/net2prj.csv): your assigned projects
   are marked with your netid. Each row has a netid, WOCProjectID, and GitHubURL (project repository link)
-- Example [Notebook]() you may modify to retrieve your projects.
-- [API Docs](https://worldofcode.org/docs/#/guide_remote?id=task-4-batching)
-  for obtaining data
+- Example [Notebook]() is provided for you modify in order to
+  retrieve data for your projects.
+- More info on WoC: [API Docs](https://worldofcode.org/docs/#/guide_remote?id=task-4-batching)
+  for obtaining the data
 
 
 ### Notes
@@ -49,6 +50,15 @@ output in your fork
 5. Report (in your notebook) the number of commits, the number of authors, and max and
 min time for each project based on WoC commits and also add the info
 you obtained from github
-
+6. Create a CSV file in your fork named netid_project_summary.csv
+that is semicolon separated and containing the following columns:
+```
+project_wocid
+githubURL
+commit_sha1
+time
+author
+commit message
+```
 
 ### Task 2-4 details: TBD

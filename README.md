@@ -16,20 +16,36 @@ and reasons for restarted contributions (if any)
 ### Task 1 details
 
 
-- You'll find the list of 10 projects in [this file](): your assigned projects
-  are marked with your netid
+- You'll find the list of 10 projects in [net2prj.csv](https://github.com/fdac25/MP2/blob/main/net2prj.csv): your assigned projects
+  are marked with your netid. Each row has a netid, WOCProjectID, and GitHubURL (project repository link)
 - Example [Notebook]() you may modify to retrieve your projects.
 - [API Docs](https://worldofcode.org/docs/#/guide_remote?id=task-4-batching)
   for obtaining data
 
-Steps
+
+### Notes
+
+Recall the lesson about data retrieval:
+
+a) what kind of source is worldofcode.org?
+b) pay attention to how many commits you are getting, check for
+errors
+c) you may need to get an API key if the throughput is not
+sufficient
+d) you may need to retrieve commit sha1's first, then get commit
+content in batches
+e) validation: does the number of commits or authors match that on GH?
+f) WoC data is up to Jan 2025, so there may be some projects with
+later commits on GH 
+
+### Steps
 
 1. Fork fdac25/MP2
 2. Create retrieval notbook copy (rename to yournetid.ipynb)
 3. Edit/run your copy using google collab notebooks and save the
 output in your fork
 4. For each of the 10 projects go to their github repo and get
-   the number of stars, number of forks, and last commit date
+   the number of stars, number of forks, and the last commit date
 5. Report (in your notebook) the number of commits, the number of authors, and max and
 min time for each project based on WoC commits and also add the info
 you obtained from github

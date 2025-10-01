@@ -18,8 +18,7 @@ and reasons for restarted contributions (if any)
 
 - You'll find the list of 10 projects in [net2prj.csv](https://github.com/fdac25/MP2/blob/main/net2prj.csv): your assigned projects
   are marked with your netid. Each row has a netid, WOCProjectID, and GitHubURL (project repository link)
-- Example [Notebook]() is provided for you modify in order to
-  retrieve data for your projects.
+- Example [Notebook](https://github.com/fdac25/MP2/blob/main/getinfo.ipynb) is provided for you modify in order to retrieve data for your projects.
 - More info on WoC: [API Docs](https://worldofcode.org/docs/#/guide_remote?id=task-4-batching)
   for obtaining the data
 

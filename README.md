@@ -19,13 +19,12 @@ and reasons for restarted contributions (if any)
 - You'll find the list of 10 projects in [net2prj.csv](https://github.com/fdac25/MP2/blob/main/net2prj.csv): your assigned projects
   are marked with your netid. Each row has a netid, WOCProjectID, and GitHubURL (project repository link)
 - Example [Notebook](https://github.com/fdac25/MP2/blob/main/getinfo.ipynb) is provided for you modify in order to retrieve data for your projects.
-- More info on WoC: [API Docs](https://worldofcode.org/docs/#/guide_remote?id=task-4-batching)
-  for obtaining the data
-
+- More info on obtaining the data from WoC: [API Docs](https://worldofcode.org/docs/#/guide_remote?id=task-4-batching)
+  
 
 ### Notes
 
-Recall the lesson about data retrieval:
+Recall the lecture about data retrieval:
 
 a) what kind of source is worldofcode.org?
 b) pay attention to how many commits you are getting, check for
@@ -53,10 +52,9 @@ you obtained from github
 that is semicolon separated and containing the following columns:
 ```
 project_wocid
-githubURL
 commit_sha1
-time
 author
+time
 commit message
 ```
 

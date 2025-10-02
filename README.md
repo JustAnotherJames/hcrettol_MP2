@@ -16,7 +16,8 @@ and reasons for restarted contributions (if any)
 ### Task 1 details
 
 $${\color{red} If \space you \space retrieve \space data \space on \space more \space than \space 50 \space commits \space at \space a \space time, \space the \space server
- \space  \space may \space block \space you \space and \space you \space will \space need \space to \space wait \space a \space few \space minutes \space befort \space you
+\space  \space may \space block \space you}$$
+$${\color{red} You \space will \space need \space to \space wait \space a \space few \space minutes \space befort \space you
  \space  \space can \space send \space requests}$$
 
 - If you run requests in a loop, make sure the chunks are under 50

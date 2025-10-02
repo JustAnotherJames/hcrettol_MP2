@@ -15,7 +15,12 @@ and reasons for restarted contributions (if any)
 
 ### Task 1 details
 
+$${\color{red} If you retrieve data on more than 50 commits at a time, the server
+  may block you and you will need to wait a few minutes befort you
+  can send requests$$
 
+- If you run requests in a loop, make sure the chunks are under 50
+  commit and include some waits between the subsequent requests 
 - You'll find the list of 10 projects in [net2prj.csv](https://github.com/fdac25/MP2/blob/main/net2prj.csv): your assigned projects
   are marked with your netid. Each row has a netid, WOCProjectID, and GitHubURL (project repository link)
 - Example [Notebook](https://github.com/fdac25/MP2/blob/main/getinfo.ipynb) is provided for you modify in order to retrieve data for your projects.

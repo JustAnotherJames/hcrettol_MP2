@@ -63,4 +63,6 @@ time
 commit message
 ```
 
+### Extra credit :obtain the same data on each commit from github and store in netid_project_summary_gh.csv
+
 ### Task 2-4 details: TBD

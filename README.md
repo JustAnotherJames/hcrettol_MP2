@@ -27,13 +27,18 @@ and reasons for restarted contributions (if any)
 Recall the lecture about data retrieval:
 
 a) what kind of source is worldofcode.org?
+
 b) pay attention to how many commits you are getting, check for
 errors
+
 c) you may need to get an API key if the throughput is not
 sufficient
+
 d) you may need to retrieve commit sha1's first, then get commit
 content in batches
+
 e) validation: does the number of commits or authors match that on GH?
+
 f) WoC data is up to Jan 2025, so there may be some projects with
 later commits on GH 
 

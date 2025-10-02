@@ -15,7 +15,7 @@ and reasons for restarted contributions (if any)
 
 ### Task 1 details
 
-$${\color{red} If you retrieve data on more than 50 commits at a time, the server
+$${\color{red} If\;you\;retrieve data on more than 50 commits at a time, the server
   may block you and you will need to wait a few minutes befort you
   can send requests}$$
 

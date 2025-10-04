@@ -2,7 +2,7 @@
 
 ### Overall research objective: Study commit patterns over time for   10 scientific software projects.
 
-$${\color{red} Please\space  delay\space  running\space  queries:\space  server\space  is\space  not\space  working\space  correctly\space now }$$
+$${\color{red} WoC \space Server \space  fixed!\space  Notebook\space  updated }$$
 
 ### Work schedule
 - Task 1: (Due Oct 9) Retrieve all commits and associated data for
@@ -15,12 +15,7 @@ before and after the gap
 judgment about the reasons for the gap or discontinued contribution
 and reasons for restarted contributions (if any)
 
-### Task 1 details
 
-$${\color{red} If \space you \space retrieve \space data \space on \space more \space than \space 50 \space commits \space at \space a \space time, \space the \space server
-\space  \space may \space block \space you}$$
-$${\color{red} You \space will \space need \space to \space wait \space a \space few \space minutes \space befort \space you
- \space  \space can \space send \space requests}$$
 
 - If you run requests in a loop, make sure the chunks are under 50
   commits and include some waits between the subsequent requests 

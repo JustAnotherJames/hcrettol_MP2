@@ -2,6 +2,8 @@
 
 ### Overall research objective: Study commit patterns over time for   10 scientific software projects.
 
+$${\color{red} Please\space  delay\space  running\space  queries:\space  server\space  is\space  not\space  working\space  correctly\space now }$$
+
 ### Work schedule
 - Task 1: (Due Oct 9) Retrieve all commits and associated data for
 each of the 10 projects

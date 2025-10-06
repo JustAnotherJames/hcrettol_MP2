@@ -68,4 +68,72 @@ commit message
 
 ### Extra credit: obtain the same data (in addition to WoC data) on each commit from github and store in netid_project_summary_gh.csv
 
-### Task 2-4 details: TBD
+### Task 2 details: data visualization
+
+Visualize the commit timestamps you obtain in Task 1. Steps:
+
+1. Group activity by month. Each row should represent one month, with the number of commits made during that month.
+2. Even if a month had zero commits, still include it with a 0
+count.
+3. Begin with the first month in which the project had any commit.
+4. End with the last month in which the project had a commit.
+5. Save this as:  Filename: netid_commits_timeseries_<WOCProjectID>.csv
+```
+Columns/Format: Month;Commits
+Example rows:
+01-2021;5
+02-2021;0
+03-2021;2
+```
+6. Create a line plot of the time series in Python. The plot should use the monthly data you just generated.
+```
+Plot Format:
+X-axis = months (MM-YYYY)
+Y-axis = number of commits
+Title = WOCProjectID
+Add axis labels and grid lines
+Save the plot as: netid_timeseries_<WOCProjectID>.png
+Export resolution: ≥300 DPI
+```
+Example code:
+```
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load CSV
+df = pd.read_csv("netid_commits_timeseries_<WOCProjectID>.csv", sep=";")
+
+# Plot
+plt.figure(figsize=(10,5))
+plt.plot(df["Month"], df["Commits"], marker="o", linestyle="-")
+plt.xlabel("Time (MM-YYYY)")
+plt.ylabel("Number of Commits")
+plt.title("Commit Activity: <WOCProjectID>")
+plt.grid(True)
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+# Save; Resolution 300 DPI
+plt.savefig("netid_timeseries_<WOCProjectID>.png", dpi=300)
+plt.close()
+```
+
+
+##### Identify the Longest Inactivity Gap
+Using your monthly time series, determine the longest continuous period of zero commits.
+To calculate:
+1. Start in the first month with zero commits.
+2. Count consecutive zero-commit months.
+3. Track the maximum length.
+4. Add additional columns to netid_project_summary.csv:
+```
+LongestGapStart (MM-YYYY), 
+LongestGapEnd (MM-YYYY),
+LongestGapLength (months).
+```
+5. Count total commits to date after the LongestGapEnd. Add another
+column to netid_project_summary.csv: NumCommitsAfterLastGap
+
+
+### Task 3-4 details: TBD
+

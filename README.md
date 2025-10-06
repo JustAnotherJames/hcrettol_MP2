@@ -1,17 +1,17 @@
-# MP2 Part1 Data retrieval
+# MP2 OSS Activity Analysis
 
 ### Overall research objective: Study commit patterns over time for   10 scientific software projects.
 
 $${\color{red} WoC \space Server \space  fixed!\space  Notebook\space  updated }$$
 
 ### Work schedule
-- Task 1: (Due Oct 9) Retrieve all commits and associated data for
+- Part 1: (Due Oct 9) Retrieve all commits and associated data for
 each of the 10 projects
-- Task 2: (Due Oct 16) Plot (and describe) commit trends over time for each project
-- Task 3: (Due Oct 23)  Investigate trends for large gaps, discontinued
+- Part 2: (Due Oct 16) Plot (and describe) commit trends over time for each project
+- Part 3: (Due Oct 23)  Investigate trends for large gaps, discontinued
 contributions, and other anomalies and report topics of commits
 before and after the gap
-- Task 4: (Due  Oct 30) Based on all available evidence make a
+- Part 4: (Due  Oct 30) Based on all available evidence make a
 judgment about the reasons for the gap or discontinued contribution
 and reasons for restarted contributions (if any)
 
@@ -45,7 +45,7 @@ e) validation: does the number of commits or authors match that on GH?
 f) WoC data is up to Jan 2025, so there may be some projects with
 later commits on GH 
 
-### Steps
+### Part 1 Steps
 
 1. Fork fdac25/MP2
 2. Create retrieval notbook copy (rename to yournetid.ipynb)
@@ -68,7 +68,7 @@ commit message
 
 ### Extra credit: obtain the same data (in addition to WoC data) on each commit from github and store in netid_project_summary_gh.csv
 
-### Task 2 details: data visualization
+### Part 2 steps: data visualization
 
 Visualize the commit timestamps you obtain in Task 1. Steps:
 
@@ -133,7 +133,8 @@ LongestGapLength (months).
 ```
 5. Count total commits to date after the LongestGapEnd. Add another
 column to netid_project_summary.csv: NumCommitsAfterLastGap
+6. 
 
 
-### Task 3-4 details: TBD
+### Part 3-4 details: TBD
 

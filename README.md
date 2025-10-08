@@ -81,14 +81,14 @@ count.
 ```
 Columns/Format: Month;Commits
 Example rows:
-01-2021;5
-02-2021;0
-03-2021;2
+2021-01;5
+2021-02;0
+2021-03;2
 ```
 6. Create a line plot of the time series in Python. The plot should use the monthly data you just generated.
 ```
 Plot Format:
-X-axis = months (MM-YYYY)
+X-axis = months (YYYY-MM)
 Y-axis = number of commits
 Title = WOCProjectID
 Add axis labels and grid lines
@@ -106,7 +106,7 @@ df = pd.read_csv("netid_commits_timeseries_<WOCProjectID>.csv", sep=";")
 # Plot
 plt.figure(figsize=(10,5))
 plt.plot(df["Month"], df["Commits"], marker="o", linestyle="-")
-plt.xlabel("Time (MM-YYYY)")
+plt.xlabel("Time (YYYY-MM)")
 plt.ylabel("Number of Commits")
 plt.title("Commit Activity: <WOCProjectID>")
 plt.grid(True)
@@ -127,8 +127,8 @@ To calculate:
 3. Track the maximum length.
 4. Add additional columns to netid_project_summary.csv:
 ```
-LongestGapStart (MM-YYYY), 
-LongestGapEnd (MM-YYYY),
+LongestGapStart (YYYY-MM), 
+LongestGapEnd (YYYY-MM),
 LongestGapLength (months).
 ```
 5. Count total commits to date after the LongestGapEnd. Add another
@@ -153,5 +153,6 @@ annually.
 Irregular or random variations: Unpredictable changes in activity
 that cannot be explained by trends or seasonal patterns.
 
+Vis.ipynb"
 ## Part 3-4 details: TBD
 

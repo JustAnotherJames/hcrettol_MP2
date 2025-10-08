@@ -153,6 +153,6 @@ annually.
 Irregular or random variations: Unpredictable changes in activity
 that cannot be explained by trends or seasonal patterns.
 
-Vis.ipynb"
+[Example Notebook](https://github.com/fdac25/MP2/blob/main/Vis.ipynb)
 ## Part 3-4 details: TBD
 

@@ -133,8 +133,25 @@ LongestGapLength (months).
 ```
 5. Count total commits to date after the LongestGapEnd. Add another
 column to netid_project_summary.csv: NumCommitsAfterLastGap
-6. 
+6. Provide a concise classification of the project’s overall
+   activity trajectory based on the charts you have produced your overall perception. Record this
+   in netid_project_summary.csv: ActivityPattern (choose from:
+   steady, rising, declining, U-shaped, stopped, cyclical, irregular). 
+7. In the notebook, in the cell "Interpretation", add explanation for the trnds you
+   noted. See the definitions below. Also specify the number of gaps
+   (of at least three months of inactivity) are there for each project.
 
+Trends: steady, declining, rising, U-shaped: Long-term, general
+movements in activity levels. An upward trend might indicate that a
+person is becoming more active over several months, while a downward
+trend could signal a decrease in mobility.
 
-### Part 3-4 details: TBD
+Seasonal/Cyclical patterns: Predictable and repeated patterns of activity
+that occur at fixed intervals, such as quarterly or
+annually. 
+
+Irregular or random variations: Unpredictable changes in activity
+that cannot be explained by trends or seasonal patterns.
+
+## Part 3-4 details: TBD
 

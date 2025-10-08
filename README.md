@@ -125,17 +125,19 @@ To calculate:
 1. Start in the first month with zero commits.
 2. Count consecutive zero-commit months.
 3. Track the maximum length.
-4. Add additional columns to netid_project_summary.csv:
+4. Create netid_project_stats.csv with columns project, the number of commits, the number of authors, and max and
+min time for each project based on WoC commits and also add the info
+you obtained from github. In addition, add
 ```
 LongestGapStart (YYYY-MM), 
 LongestGapEnd (YYYY-MM),
 LongestGapLength (months).
 ```
 5. Count total commits to date after the LongestGapEnd. Add another
-column to netid_project_summary.csv: NumCommitsAfterLastGap
+column to netid_project_stats.csv: NumCommitsAfterLastGap
 6. Provide a concise classification of the project’s overall
    activity trajectory based on the charts you have produced your overall perception. Record this
-   in netid_project_summary.csv: ActivityPattern (choose from:
+   in netid_project_stats.csv: ActivityPattern (choose from:
    steady, rising, declining, U-shaped, stopped, cyclical, irregular). 
 7. In the notebook, in the cell "Interpretation", add explanation for the trnds you
    noted. See the definitions below. Also specify the number of gaps

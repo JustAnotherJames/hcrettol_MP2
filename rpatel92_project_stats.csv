@@ -1,0 +1,11 @@
+project,num_commits,num_authors,min_time,max_time,stars,forks,last_commit_github,LongestGapStart,LongestGapEnd,LongestGapLength,NumCommitsAfterLastGap,NumberOfGapsInTimeline,ActivityPattern
+Calamari-OCR_calamari,832,46,3/20/2018,11/26/2024,1166,212,2025-05-12T16:17:04Z,2023-02,2023-07,6,92,2,cyclical
+pdclab_peregrine,91,4,4/5/2020,10/2/2021,207,37,2025-03-12T17:28:00Z,2021-01,2021-03,3,19,2,cyclical
+JuliaOpt_Pajarito.jl,1191,17,3/1/2016,2/15/2020,138,21,2025-04-11T08:34:36Z,2019-07,2020-01,7,13,2,declining
+MIC-DKFZ_batchgenerators,722,58,3/17/2017,11/28/2024,1159,229,2025-03-25T10:14:58Z,2022-06,2022-09,4,113,1,cyclical
+romerogroup_pyprocar,859,35,3/25/2018,4/15/2025,190,81,2025-09-20T18:08:49Z,2022-09,2022-12,4,374,1,cyclical
+Jean-Romain_lidR,4595,29,2/17/2016,11/22/2021,652,138,2025-10-08T18:14:57Z,2021-07,2021-07,1,148,0,cyclical
+google-research_football,329,74,5/31/2019,9/3/2024,3499,1329,2025-06-17T08:34:25Z,2022-10,2023-07,10,27,3,cyclical
+drostlab_philentropy,865,10,2/16/2015,12/5/2024,143,20,2024-12-05T13:32:58Z,2016-06,2017-03,10,366,12,cyclical
+ContextLab_hypertools,1964,41,7/20/2016,3/19/2024,1870,163,2025-07-10T19:16:36Z,2022-09,2024-02,18,16,5,cyclical
+lima1_PureCN,1360,27,4/14/2016,4/17/2025,140,34,2025-08-28T22:58:17Z,2022-05,2022-09,5,131,4,cyclical

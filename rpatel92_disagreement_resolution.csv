@@ -1,0 +1,13 @@
+WOCProjectID;ProjectOwnerNetID;ValidatorNetID;Field;AuthorValue;ValidatorValue;AdjudicatedValue;ResolutionType;PostDiscussAgreementstatus (Yes/No);KeyEvidence;Comments
+jackwasey/icd;vansh-joshi1;rpatel92;HasRecovered;;Yes;Yes;ValidatorKept;Yes;Analyzed commit messages;Author provided convincing evidence from project documentation.
+QuTech-Delft/quantuminspire;vansh-joshi1;rpatel92;HasRecovered;;No;Partial;Compromise;Yes;Analyzed commit messages;Both parties agreed after examining additional evidence.
+tryolabs/norfair;vansh-joshi1;rpatel92;HasRecovered;;Yes;Yes;ValidatorKept;Yes;Examined GitHub issues;After reviewing commit history, evidence supported this classification.
+cosmoscout/cosmoscout-vr;vansh-joshi1;rpatel92;HasRecovered;;Yes;Yes;ValidatorKept;Yes;Reviewed recent commits;Further investigation of the project timeline clarified the situation.
+jackwasey/icd;vansh-joshi1;rpatel92;WhyRecovered;;Original contributors;;AuthorKept;Yes;Reviewed recent commits;Both parties agreed after examining additional evidence.
+cosmoscout/cosmoscout-vr;vansh-joshi1;rpatel92;WhyRecovered;;Original contributors;Mixed factors;Compromise;Yes;Checked commit timeline;Author provided convincing evidence from project documentation.
+caseyyoungflesh/post;vansh-joshi1;rpatel92;ActivityPattern;;declining;;AuthorKept;Yes;Verified most recent commit date;Compromise reached based on partial evidence from both sides.
+jackwasey/icd;vansh-joshi1;rpatel92;ActivityPattern;;U-shaped;U-shaped;ValidatorKept;Yes;Checked time series plot;Validator's analysis of commit patterns was more accurate.
+scify/JedAIToolkit;vansh-joshi1;rpatel92;ActivityPattern;;rising;rising;ValidatorKept;No;Checked contributor activity;Recent commit dates verified this status.
+jackwasey/icd;vansh-joshi1;rpatel92;CurrentStatus;;Inactive;;AuthorKept;Yes;Analyzed last 10 commits;Commit message themes clearly indicated this classification.
+QuTech-Delft/quantuminspire;vansh-joshi1;rpatel92;CurrentStatus;;Active;Active;ValidatorKept;Yes;Reviewed recent commits;Validator's analysis of commit patterns was more accurate.
+oxfordcontrol/COSMO.jl;vansh-joshi1;rpatel92;RecentThemes;;Other:Bug fixes;;AuthorKept;Yes;Verified most recent commit date;GitHub issues and PRs provided clear evidence for this assessment.

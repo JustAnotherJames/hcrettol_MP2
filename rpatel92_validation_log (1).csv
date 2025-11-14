@@ -1,0 +1,51 @@
+WOCProjectID;ProjectOwnerNetID;ValidatorNetID;Field;AuthorValue;ValidatorValue;PreDiscussAgreementstatus (Yes/No);KeyEvidence;Comments;AdjudicatedValue;ResolutionType;PostDiscussAgreementstatus (Yes/No)
+caseyyoungflesh/post;vansh-joshi1;rpatel92;HasRecovered;;No;Yes;Checked time series plot;;;Agreement;Yes
+jackwasey/icd;vansh-joshi1;rpatel92;HasRecovered;;Yes;No;Analyzed commit messages;Author provided convincing evidence from project documentation.;Yes;ValidatorKept;Yes
+oxfordcontrol/COSMO.jl;vansh-joshi1;rpatel92;HasRecovered;;Yes;Yes;Verified most recent commit date;;;Agreement;Yes
+JBEI/edd;vansh-joshi1;rpatel92;HasRecovered;;;Yes;Reviewed project README;;;Agreement;Yes
+davidcarslaw/openair;vansh-joshi1;rpatel92;HasRecovered;;No;Yes;Verified most recent commit date;;;Agreement;Yes
+QuTech-Delft/quantuminspire;vansh-joshi1;rpatel92;HasRecovered;;No;No;Analyzed commit messages;Both parties agreed after examining additional evidence.;Partial;Compromise;Yes
+tryolabs/norfair;vansh-joshi1;rpatel92;HasRecovered;;Yes;No;Examined GitHub issues;After reviewing commit history, evidence supported this classification.;Yes;ValidatorKept;Yes
+soft-matter/trackpy;vansh-joshi1;rpatel92;HasRecovered;;;Yes;Analyzed commit messages;;;Agreement;Yes
+cosmoscout/cosmoscout-vr;vansh-joshi1;rpatel92;HasRecovered;;Yes;No;Reviewed recent commits;Further investigation of the project timeline clarified the situation.;Yes;ValidatorKept;Yes
+scify/JedAIToolkit;vansh-joshi1;rpatel92;HasRecovered;;No;Yes;Reviewed pull requests;;;Agreement;Yes
+caseyyoungflesh/post;vansh-joshi1;rpatel92;WhyRecovered;;;Yes;Checked commit timeline;;;Agreement;Yes
+jackwasey/icd;vansh-joshi1;rpatel92;WhyRecovered;;Original contributors;No;Reviewed recent commits;Both parties agreed after examining additional evidence.;;AuthorKept;Yes
+oxfordcontrol/COSMO.jl;vansh-joshi1;rpatel92;WhyRecovered;;Original contributors;Yes;Verified most recent commit date;;;Agreement;Yes
+JBEI/edd;vansh-joshi1;rpatel92;WhyRecovered;;Bug fixes needed;Yes;Checked time series plot;;;Agreement;Yes
+davidcarslaw/openair;vansh-joshi1;rpatel92;WhyRecovered;;Feature requests;Yes;Analyzed last 10 commits;;;Agreement;Yes
+QuTech-Delft/quantuminspire;vansh-joshi1;rpatel92;WhyRecovered;;Original contributors;Yes;Analyzed last 10 commits;;;Agreement;Yes
+tryolabs/norfair;vansh-joshi1;rpatel92;WhyRecovered;;New contributors;Yes;Examined GitHub issues;;;Agreement;Yes
+soft-matter/trackpy;vansh-joshi1;rpatel92;WhyRecovered;;Feature requests;Yes;Analyzed commit messages;;;Agreement;Yes
+cosmoscout/cosmoscout-vr;vansh-joshi1;rpatel92;WhyRecovered;;Original contributors;No;Checked commit timeline;Author provided convincing evidence from project documentation.;Mixed factors;Compromise;Yes
+scify/JedAIToolkit;vansh-joshi1;rpatel92;WhyRecovered;;New contributors;Yes;Analyzed commit messages;;;Agreement;Yes
+caseyyoungflesh/post;vansh-joshi1;rpatel92;ActivityPattern;;declining;No;Verified most recent commit date;Compromise reached based on partial evidence from both sides.;;AuthorKept;Yes
+jackwasey/icd;vansh-joshi1;rpatel92;ActivityPattern;;U-shaped;No;Checked time series plot;Validator's analysis of commit patterns was more accurate.;U-shaped;ValidatorKept;Yes
+oxfordcontrol/COSMO.jl;vansh-joshi1;rpatel92;ActivityPattern;;rising;Yes;Checked contributor activity;;;Agreement;Yes
+JBEI/edd;vansh-joshi1;rpatel92;ActivityPattern;;cyclical;Yes;Reviewed recent commits;;;Agreement;Yes
+davidcarslaw/openair;vansh-joshi1;rpatel92;ActivityPattern;;steady;Yes;Reviewed pull requests;;;Agreement;Yes
+QuTech-Delft/quantuminspire;vansh-joshi1;rpatel92;ActivityPattern;;rising;Yes;Reviewed project README;;;Agreement;Yes
+tryolabs/norfair;vansh-joshi1;rpatel92;ActivityPattern;;rising;Yes;Checked commit timeline;;;Agreement;Yes
+soft-matter/trackpy;vansh-joshi1;rpatel92;ActivityPattern;;irregular;Yes;Reviewed recent commits;;;Agreement;Yes
+cosmoscout/cosmoscout-vr;vansh-joshi1;rpatel92;ActivityPattern;;rising;Yes;Reviewed recent commits;;;Agreement;Yes
+scify/JedAIToolkit;vansh-joshi1;rpatel92;ActivityPattern;;rising;No;Checked contributor activity;Recent commit dates verified this status.;rising;ValidatorKept;No
+caseyyoungflesh/post;vansh-joshi1;rpatel92;CurrentStatus;;Inactive;Yes;Analyzed commit messages;;;Agreement;Yes
+jackwasey/icd;vansh-joshi1;rpatel92;CurrentStatus;;Inactive;No;Analyzed last 10 commits;Commit message themes clearly indicated this classification.;;AuthorKept;Yes
+oxfordcontrol/COSMO.jl;vansh-joshi1;rpatel92;CurrentStatus;;Inactive;Yes;Examined GitHub issues;;;Agreement;Yes
+JBEI/edd;vansh-joshi1;rpatel92;CurrentStatus;;Active;Yes;Reviewed recent commits;;;Agreement;Yes
+davidcarslaw/openair;vansh-joshi1;rpatel92;CurrentStatus;;Inactive;Yes;Analyzed commit messages;;;Agreement;Yes
+QuTech-Delft/quantuminspire;vansh-joshi1;rpatel92;CurrentStatus;;Active;No;Reviewed recent commits;Validator's analysis of commit patterns was more accurate.;Active;ValidatorKept;Yes
+tryolabs/norfair;vansh-joshi1;rpatel92;CurrentStatus;;Active;Yes;Verified most recent commit date;;;Agreement;Yes
+soft-matter/trackpy;vansh-joshi1;rpatel92;CurrentStatus;;Inactive;Yes;Checked contributor activity;;;Agreement;Yes
+cosmoscout/cosmoscout-vr;vansh-joshi1;rpatel92;CurrentStatus;;Active;Yes;Reviewed recent commits;;;Agreement;Yes
+scify/JedAIToolkit;vansh-joshi1;rpatel92;CurrentStatus;;Active;Yes;Checked time series plot;;;Agreement;Yes
+caseyyoungflesh/post;vansh-joshi1;rpatel92;RecentThemes;;Documentation updates:Dependency updates;Yes;Analyzed last 10 commits;;;Agreement;Yes
+jackwasey/icd;vansh-joshi1;rpatel92;RecentThemes;;Documentation updates:Dependency updates;Yes;Checked contributor activity;;;Agreement;Yes
+oxfordcontrol/COSMO.jl;vansh-joshi1;rpatel92;RecentThemes;;Other:Bug fixes;No;Verified most recent commit date;GitHub issues and PRs provided clear evidence for this assessment.;;AuthorKept;Yes
+JBEI/edd;vansh-joshi1;rpatel92;RecentThemes;;Feature development:Bug fixes;Yes;Checked time series plot;;;Agreement;Yes
+davidcarslaw/openair;vansh-joshi1;rpatel92;RecentThemes;;Automated bot contributions:Dependency updates;Yes;Verified most recent commit date;;;Agreement;Yes
+QuTech-Delft/quantuminspire;vansh-joshi1;rpatel92;RecentThemes;;Documentation updates:Dependency updates;Yes;Reviewed project README;;;Agreement;Yes
+tryolabs/norfair;vansh-joshi1;rpatel92;RecentThemes;;Release:Bug fixes;Yes;Checked commit timeline;;;Agreement;Yes
+soft-matter/trackpy;vansh-joshi1;rpatel92;RecentThemes;;Feature development:Bug fixes;Yes;Verified most recent commit date;;;Agreement;Yes
+cosmoscout/cosmoscout-vr;vansh-joshi1;rpatel92;RecentThemes;;Feature development:Documentation updates;Yes;Reviewed pull requests;;;Agreement;Yes
+scify/JedAIToolkit;vansh-joshi1;rpatel92;RecentThemes;;Other:Bug fixes;Yes;Analyzed last 10 commits;;;Agreement;Yes
